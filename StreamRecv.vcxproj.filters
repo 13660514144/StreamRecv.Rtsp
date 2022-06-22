@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源">
+      <UniqueIdentifier>{399cb5ea-ce2a-4a6b-b9af-6f7c562e4d8b}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头">
+      <UniqueIdentifier>{ae84fa66-15c1-43fd-bbc6-9d4b0544019a}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源">
+      <UniqueIdentifier>{da578b55-8ff7-4aa5-87bc-bc53aeca8592}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+    <Filter Include="RTSP">
+      <UniqueIdentifier>{2190befb-9a2a-442a-a9df-6c68a1a4e7fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FFmpeg">
+      <UniqueIdentifier>{45922afc-922e-4bdd-a954-e3a882d812e1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ChildView.cpp">
+      <Filter>源</Filter>
+    </ClCompile>
+    <ClCompile Include="ConnectServerDlg.cpp">
+      <Filter>源</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>源</Filter>
+    </ClCompile>
+    <ClCompile Include="PProfile.cpp">
+      <Filter>源</Filter>
+    </ClCompile>
+    <ClCompile Include="StatisticsViewDlg.cpp">
+      <Filter>源</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源</Filter>
+    </ClCompile>
+    <ClCompile Include="StreamRecv.cpp">
+      <Filter>源</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoDisplayWnd.cpp">
+      <Filter>源</Filter>
+    </ClCompile>
+    <ClCompile Include="WaveSound.cpp">
+      <Filter>源</Filter>
+    </ClCompile>
+    <ClCompile Include="h264.cpp">
+      <Filter>RTSP</Filter>
+    </ClCompile>
+    <ClCompile Include="rtsp.cpp">
+      <Filter>RTSP</Filter>
+    </ClCompile>
+    <ClCompile Include="AVDecoder.cpp">
+      <Filter>FFmpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="MakePNG.cpp">
+      <Filter>源</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ChildView.h">
+      <Filter>头</Filter>
+    </ClInclude>
+    <ClInclude Include="ConnectServerDlg.h">
+      <Filter>头</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>头</Filter>
+    </ClInclude>
+    <ClInclude Include="PProfile.h">
+      <Filter>头</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头</Filter>
+    </ClInclude>
+    <ClInclude Include="StatisticsViewDlg.h">
+      <Filter>头</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头</Filter>
+    </ClInclude>
+    <ClInclude Include="StreamRecv.h">
+      <Filter>头</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoDisplayWnd.h">
+      <Filter>头</Filter>
+    </ClInclude>
+    <ClInclude Include="WaveSound.h">
+      <Filter>头</Filter>
+    </ClInclude>
+    <ClInclude Include="wxutil2.h">
+      <Filter>头</Filter>
+    </ClInclude>
+    <ClInclude Include="config_win32.h">
+      <Filter>RTSP</Filter>
+    </ClInclude>
+    <ClInclude Include="h264.h">
+      <Filter>RTSP</Filter>
+    </ClInclude>
+    <ClInclude Include="rtsp.h">
+      <Filter>RTSP</Filter>
+    </ClInclude>
+    <ClInclude Include="SpsDecode.h">
+      <Filter>RTSP</Filter>
+    </ClInclude>
+    <ClInclude Include="AVDecoder.h">
+      <Filter>FFmpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="MakePNG.h">
+      <Filter>头</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\NSPlayer.ico">
+      <Filter>资源</Filter>
+    </Image>
+    <Image Include="..\Bin\background.bmp">
+      <Filter>资源</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="NSPlayer.rc">
+      <Filter>资源</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\NSPlayer.rc2">
+      <Filter>资源</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="res\StreamRecv.manifest" />
+  </ItemGroup>
+</Project>
